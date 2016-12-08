@@ -1,4 +1,4 @@
-package com.test.inheritance.pack1;
+package com.test.inheritance.example.protectedm.pack1;
 
 public class Main {
 
