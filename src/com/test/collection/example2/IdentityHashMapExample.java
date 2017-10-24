@@ -19,6 +19,8 @@ public class IdentityHashMapExample {
 		String s = identity.get(10); 
 		System.out.println(s); //null
 		System.out.println(identity.get(i1));
+		Integer i3 = i1;
+		System.out.println(identity.get(i3));
 	}
 
 }
