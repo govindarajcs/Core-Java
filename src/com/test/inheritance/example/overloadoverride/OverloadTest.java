@@ -47,7 +47,6 @@ class ChildClass extends MainClass{
 
 public class OverloadTest extends MainClass{
 	
-	
 	public static void main(String[] args) {
 	ChildClass c = new ChildClass();
 	c.execute();
@@ -55,7 +54,6 @@ public class OverloadTest extends MainClass{
 	m.execute();
 	MainClass c1 = new ChildClass();
 	c1.execute();
-	
 	}
 
 }
