@@ -3,7 +3,6 @@ package com.test.collection.example2;
 import java.util.IdentityHashMap;
 
 public class IdentityHashMapExample {
-
     public static void main(String[] args) {
         IdentityHashMap<Integer, String> identity = new IdentityHashMap<Integer,String>();
         Integer i1 = new Integer(10);
@@ -22,5 +21,4 @@ public class IdentityHashMapExample {
         Integer i3 = i1;
         System.out.println(identity.get(i3));
     }
-
 }

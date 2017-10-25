@@ -19,13 +19,13 @@ public class WeakHashMapExample {
 }
 
 class Employee{
-    String name;
-    int id;
-    public String toString(){
-        System.out.println("I am called when printing the map in console");
-        return "temp";
-    }
-    public void finalize(){
-        System.out.println("Calling Finalize method");
-    }
+	String name;
+	int id;
+	public String toString(){
+		System.out.println("I am called when printing the map in console");
+		return "temp";
+	}
+	public void finalize(){
+		System.out.println("Calling Finalize method");
+	}
 }
